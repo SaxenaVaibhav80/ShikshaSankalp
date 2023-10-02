@@ -93,20 +93,30 @@ background-size: cover;
     text-decoration: none;
 }
 
-.introsec{
+.introsecflex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 90%;
+    margin-left: 5rem;
     /* border: 1px solid red; */
-    margin-left: 5%;
-    margin-top: 10%;
+    padding-top: 6%;
+    background-color: white;
+    color: rgb(125, 134, 141)
 }
+.introsecdiv{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 5%;
+ }
 .tutorpic,.auditpic,.modpic,.skillpic,.jobpic{
     width: 100px;
     height: 95px;
 }
 .box{
     text-align: center;
+    border: 1px solid white;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    padding: 1rem;
 }
 .boxcontent{
  width: 250px;
@@ -154,4 +164,56 @@ background-size: cover;
     top: 61%;
     margin-left: 2%;
     
+}
+.featurehr{
+    display: inline-block;
+    border-style:0;
+    width: 20%;
+    border-top:.1rem solid rgb(134, 143, 150) ;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: .4rem;
+}
+.featurehead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    display: inline-block;
+    color: rgb(125, 134, 141);
+}
+.featurediv{
+    padding-top: 5%;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: white;
+}
+.jobvideo{
+    width: 45%;
+    height: 20%;
+   
+}
+
+.jobvideodiv{
+    /* border: 1px solid red; */
+    background-color: white;
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    color: rgb(125, 134, 141);
+}
+.videotext{
+    text-align: left;
+    margin-left:3rem ;
+    margin-top: 1rem;
+}
+.jobhead{
+    font-weight: 900;
+    font-size: 1.4rem;
+    /* text-decoration: underline; */
 }
