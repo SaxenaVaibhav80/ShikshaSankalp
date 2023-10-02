@@ -9,89 +9,75 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+      
+
     </head>
     <body >
         
         <div class="intro1" >
             <div class="top-bar"> 
                <div class="bar-content">
-                    <a class="nav-item-link" href="#"><p class="nav-items">E-Module</p></a>
-                    <a class="nav-item-link" href="#"><p class="nav-items"></p>E-Mentor</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items">Seva Kendra</p></a>
-                    <a class="nav-item-link" href="#"><p class="nav-items"></p>Skills</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items"></p>About Us</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items"></p>LOGIN</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items"></p>JOIN US</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items mod">E-Module</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items mentor"></p>E-Mentor</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items help">Help Desk</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items skill"></p>Skills</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items job"></p>Job search</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items about"></p>About Us</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items login"></p>LOGIN</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items join"></p>JOIN US</a>
                </div>
             </div>
-            <div class="arrow">
+            
+            <div class="arrow" >
                 <img src="img/down-arrow.png"  class="arrow-img"></img>
                 <p class="slide-down">SLIDE DOWN</p>
-            </div>
+            </div></a>
+            <div class="animatecover">
+                <div class="animate">Learn Somthing</div>
+                <div class="animate2">Develop Yourself, Gain Skills</div>
+                <div class="animate3">Get a Job</div>
+             </div>
         </div>
-        <div class=introsec data-aos="fade" data-aos-duration="10000">
-            <div class="featuresec">
-                <hr class="hr">
-                <p class="featureshead">OUR FEATURES</p>
-                <hr  class="hr">
-            </div>
-
-            <div class="sec1">
-                <div class="sec1-skill subsec">
-                    <img src="img/skill.png" class="skillpic">
-                    <p class="sec-head">Develop SKILLS</p>
-                    <p class="skill-dis">
-                        Our program equips students with essential skills: typing speed, communication, memorization, and article writing. After writing, AI identifies grammatical errors and suggests vocabulary alternatives, fostering continuous learning and skill development.
-                    </p>
-    
-                </div>
-
-                <div class="sec1-mentor subsec">
-                    <img src="img/tutor.png" class="tutorpic">
-                    <p class="sec-head">E-Mentor</p>
-                    <p class="mentor-dis">
-                        Our program provides digital faculty to rural areas lacking quality teachers. Teachers are essential for imparting knowledge, fostering curiosity, and supporting students in achieving academic success and personal growth.
-                    </p>
-    
-                </div>
-                
-                <div class="sec1-module subsec">
-                    <img src="img/online-course.png" class="modulepic">
-                    <p class="sec-head">E-Module</p>
-                    <p class="module-dis">
-                        Our digital modules empower individuals to improve their reading and learning abilities. These modules, available in both local languages for cultural relevance and English for global accessibility, offer valuable tools for student advancement, promoting effective education and skill development.
-                    </p>
-                    
-                </div>
-                
-            </div>
-            <div class="sec2">
-                <div class="sec1-job-rec subsec">
-                    <img src="img/job-seeking.gif" class="jobpic">
-                    <p class="sec-head">Job Suggestion</p>
-                    <p class="job-dis">
-                        Our web app recommends job opportunities upon completion of basic knowledge, facilitating employment and income generation. It connects users with relevant job openings, ensuring that newfound skills translate into practical opportunities for financial growth and stability.
-                    </p>
-
-                </div>
-                <div class="sec1-job-rec subsec">
-                    <img src="img/audit.png" class="testpic">
-                    <p class="sec-head">Assesments</p>
-                    <p class="test-dis">
-                        After completing one module you have to give online test and if you get pass in that test then only next module will accessible else not,Screen will be lock during test, After the test if you unlucky faild in exam then AI will detect your weakest past of the module so that you can learn again in betterway to clear exam 
-                    </p>
-
-                </div>
-                <div class="sec1-job-rec subsec">
-                    <img src="img/job-seeking.gif" class="jobpic">
-                    <p class="sec-head">Job Suggestion</p>
-                    <p class="job-dis">
-                        Our web app recommends job opportunities upon completion of basic knowledge, facilitating employment and income generation. It connects users with relevant job openings, ensuring that newfound skills translate into practical opportunities for financial growth and stability.
-                    </p>
-
-                </div>
-            </div>
+        <div>
+            <hr class="featurehr">
+            <p class="featurehead">Our Features</p>
+            <hr class="featurehr"> 
         </div>
+        <div class=introsec data-aos="fade" data-aos-duration="10000" id="d">
+
+           <div class="mentor box">
+              <img src="img/tutor.png" class="tutorpic">
+              <div  class="boxcontent">
+                 Digital faculty for rural education where teachers nurture  skills, and knowledge 
+               </div>
+           </div>
+           <div class="mod box" >
+              <img src="img/online-course.png" class="modpic">
+              <div class="boxcontent">
+                Digital modules boost reading and learning skills in local and global languages.
+              </div>
+           </div>
+           <div class="test box ">
+              <img src="img/audit.png" class="auditpic">
+              <div  class="boxcontent">
+                Tests unlocks next modules, AI detects weaknesses for improved learning.
+              </div>
+           </div>
+           <div class="skill box">
+              <img src="img/skill.png" class="skillpic">
+              <div  class="boxcontent">
+                We empower students with different skills, because now a days skills matter a lot.
+              </div>
+           </div>
+           <!-- <div class="job box">
+                <img src="img/job-seeking (1).png" class="jobpic">
+                <div  class="boxcontent">
+                    After completing all modules, we'll suggest a profession-based job according to your skills and learning progress.
+                </div>
+           </div> -->
+        </div>
+
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();
