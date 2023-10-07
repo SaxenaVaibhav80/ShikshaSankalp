@@ -10,22 +10,77 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
 
     </head>
     <body >
-        
+      <div class="signindivoverlay">
+         <div class="content">
+            <img class="closesignin" src="img/close.png">
+            <div class="text">Please Login To Continue</div>
+               <form action="#">
+                 <div class="field">
+                   <span class="fa fa-user"></span>
+                   <input type="text" placeholder="Email Id" required>
+                
+                 </div>
+                 <div class="field">
+                   <span class="fa fa-lock"></span>
+                   <input type="password" placeholder="Password">
+                   
+                 </div>
+                 
+                 <button class="loginbtn">Log in</button>
+                 <div class="or">Or</div>
+                 <div class="icon-button"> 
+                     
+                   <span class="facebook"><i class="fa fa-facebook"></i>  Facebook</span>
+             
+                   <span><i class="fa fa-google"></i>  Google</span>
+             
+             
+                 </div>
+               </form>
+           </div>
+         </div>
+      </div>
+      <div class="signupdivoverlay">
+         <div class="content signup">
+            <img class="closesignup" src="img/close.png">
+            <div class="text">Join Us For Free</div>
+               <form action="#" class="formsignup">
+                 <div class="field usernamesignupdiv">
+                   <span class="fa fa-user"></span>
+                   <input type="text" placeholder="Username" required class="usernamesignup">
+                
+                 </div>
+                 <div class="field passsignupdiv">
+                   <span class="fa fa-lock"></span>
+                   <input type="password" placeholder="Password" required class="passsignup">
+                   
+                 </div>
+                 <div class="field callinput callsignupdiv">
+                   <span class="fa fa-phone"></span>
+                   <input type="number" placeholder="Mobile No." required class="phonesignup">
+                 </div>
+                 
+                 <button class="joinbtn">Join Us</button>
+               </form>
+           </div>
+         </div>
+      </div>
         <div class="intro1" >
             <div class="top-bar"> 
                <div class="bar-content">
-                    <a class="nav-item-link" href="#"><p class="nav-items mod">E-Module</p></a>
-                    <a class="nav-item-link" href="#"><p class="nav-items mentor"></p>E-Mentor</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items help">Help Desk</p></a>
-                    <a class="nav-item-link" href="#"><p class="nav-items skill"></p>Skills</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items job"></p>Job search</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items about"></p>About Us</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items login"></p>LOGIN</a>
-                    <a class="nav-item-link" href="#"><p class="nav-items join"></p>JOIN US</a>
+                    <a class="nav-item-link" href="#"><p class="nav-items mod"><p>E-Module</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items mentor"><p>E-Mentor</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items help"><p>Help Desk</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items skill"><p>Skills</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items job"><p>Job search</p></a>
+                    <a class="nav-item-link" href="#"><p class="nav-items about"><p>About Us</p></a>
+                    <p class="nav-items  nav-item-link" id="login">LOGIN</p>
+                    <p class="nav-items  nav-item-link" id="join">JOIN US</p>
                </div>
             </div>
             
@@ -42,7 +97,7 @@
         
         <div class="featurediv"  class= introsec data-aos="fade" data-aos-duration="10000">
             <hr class="featurehr">
-            <p class="featurehead">Our Features</p>
+            <p class="featurehead">Why ShikshaSankalp ?</p>
             <hr class="featurehr"> 
         </div>
         <div class="introsecdiv">
@@ -177,6 +232,8 @@
         </div>
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="js/js.js"></script>
+        
         <script>
           AOS.init();
         </script>

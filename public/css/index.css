@@ -318,3 +318,159 @@ background-size: cover;
     background-color: rgb(11,33,45);
     padding: 35px;
 }
+.signindiv{
+    width: 500px;
+    height: 350px;
+    /* border:1px solid red; */
+    margin-left: 510px;
+    margin-top: 210px;
+    box-shadow: 0 2px 26px 0 rgba(219, 225, 243, 0.14);
+    /* background-color: aquamarine; */
+    z-index: 5;
+}
+
+.signindivoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 12, 12, 0.8);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    visibility: hidden;
+}
+.signupdivoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 12, 12, 0.8);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    visibility: hidden;
+}
+.content{
+    width: 330px;
+   
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 100px;
+    box-shadow: -3px -3px 9px #aaa9a95c, 3px 3px 7px rgb(147 149 151 / 25%)
+   
+  }
+
+  
+  .content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: rgb(247, 233, 233);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content .field{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  
+  .field input{
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #e0d2d2;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+   
+  }
+  
+  
+  .field input::placeholder{
+    color: #e0d2d2a6;
+  }
+  .field:nth-child(2){
+    margin-top: 20px;
+  }
+  
+  .field span{
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+  
+  
+  
+  button{
+    margin: 25px 0 0 0;
+    width: 100%;
+    height: 50px;
+    color: rgb(238, 226, 226);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+   margin-top: 40px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+   
+  }
+   
+  
+  .or{
+    color: rgba(255, 255, 255, 0.733);
+    margin-top: 9px;
+  }
+  .content{
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 38%;
+
+    color: rgba(255, 255, 255, 0.733);
+  }
+  .icon-button{
+    margin-top: 15px;
+  }
+  .icon-button span{
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+     color: rgba(244, 247, 250, 0.795);
+   border-radius: 5px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.164);
+      backdrop-filter: blur(10px);
+  }
+  .icon-button span.facebook{
+    margin-right: 17px;
+  
+  }
+  button:hover,
+  .icon-button span:hover{
+    background-color: #babecc8c;
+  }
+  .closesignin{
+    position: absolute;
+    left:61.5%;
+    top:30%;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .closesignup{
+    position: absolute;
+    left:61.5%;
+    top:30%;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .callinput{
+    margin-top: 15px;
+  }
