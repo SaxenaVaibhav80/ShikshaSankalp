@@ -20,6 +20,11 @@ app.get('/', (req,res)=>
     res.sendFile(__dirname+'/index.html')
 });
 
+app.get('/help', (req,res)=>
+{
+    res.sendFile(__dirname+'/help.html')
+});
+
 
 
 
