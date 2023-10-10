@@ -17,3 +17,7 @@ $(".closesignin").click(function(){
 $(".closesignup").click(function(){
     $(".signupdivoverlay").css({'visibility':"hidden"})
 })
+$("").on('click',function(){
+    $(".top-bar").animate({'height':'110px'})
+    $(".bar-content").animate({'padding-top':'4%'})
+})
