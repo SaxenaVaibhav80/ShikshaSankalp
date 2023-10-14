@@ -48,4 +48,51 @@ function isElementInViewport(el) {
   
   // Trigger the initial check when the page loads
   window.addEventListener('load', addFadeInAnimation);
-  
+
+  var count=1;
+
+$(".next").on('click',()=>
+{
+    if(count<3){
+        count=count+1;
+        console.log(count)
+    }
+   cstr=count.toString()
+   for(var i = count-1;i>=1;i--)
+   {
+    if(count<=3){
+        j=i.toString()
+        $(".slide"+j).css({"visibility":"hidden"})
+    }
+   }
+
+   $('.slide'+cstr).css({"visibility":"visible"})
+   $('.slide'+ cstr).addClass('fadein')
+    setTimeout(()=>
+    {
+      $('.slide'+ cstr).removeClass('fadein')
+    },3000)
+   
+})
+$(".prev").on('click',()=>
+{    
+    if(count>1){
+        count=count-1;
+        console.log(count)
+    }
+   cstr=count.toString()
+    for(var i=1;i<=3;i++)
+    {
+        if(i!=count)
+        {    var j=i.toString()
+            $(".slide"+j).css({"visibility":"hidden"})
+        }
+    }
+    $('.slide'+ cstr).css({"visibility":"visible"})
+    $('.slide'+ cstr).addClass('fadein')
+    setTimeout(()=>
+    {
+      $('.slide'+ cstr).removeClass('fadein')
+    },3000)
+    
+})

@@ -77,6 +77,10 @@
     animation-duration: 3s;
 
 }
+.fadein{
+    animation-name: fadein;
+    animation-duration: 2s;
+}
 .basic-intro-dis{
     font-size: 20px;
     text-align: center;
@@ -104,6 +108,39 @@
     margin-top: 85px;
     margin-left: 80px;
     text-align: center;
-    font-size: smaller;
+    font-size: 30px;
+    color:rgb(20, 20, 20)
 }
 
+.ss{
+    width: 80%;
+    border: 1px solid red;
+    height: 410px;
+    position: absolute;
+}
+
+.slides{
+    border: 1px solid yellow;
+    width: 80%;
+    margin-left: 11.5%;
+    margin-top:7%;
+    height:460px
+}
+
+
+.slide2,.slide3{
+    visibility: hidden;
+}
+
+.next,.prev{
+    position: relative;
+}
+
+.next{
+top: 26rem;
+left: 91%;
+}
+.prev{
+    top: 26rem;
+    left: 1%;
+}
