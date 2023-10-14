@@ -94,3 +94,16 @@
   .logolink{
     margin-top: 3%;
   }
+ 
+
+  .features-intro{
+   
+    animation-name: fadein;
+    animation-duration: 3s;
+    width: 90%;
+    margin-top: 85px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: smaller;
+}
+
