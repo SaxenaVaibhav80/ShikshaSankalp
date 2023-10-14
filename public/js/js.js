@@ -57,7 +57,7 @@ $(".next").on('click',()=>
         count=count+1;
         console.log(count)
     }
-   cstr=count.toString()
+   var cstr1=count.toString()
    for(var i = count-1;i>=1;i--)
    {
     if(count<=3){
@@ -66,11 +66,11 @@ $(".next").on('click',()=>
     }
    }
 
-   $('.slide'+cstr).css({"visibility":"visible"})
-   $('.slide'+ cstr).addClass('fadein')
+   $('.slide'+cstr1).css({"visibility":"visible"})
+   $('.slide'+ cstr1).addClass('fadein')
     setTimeout(()=>
     {
-      $('.slide'+ cstr).removeClass('fadein')
+      $('.slide'+ cstr1).removeClass('fadein')
     },3000)
    
 })
@@ -80,7 +80,7 @@ $(".prev").on('click',()=>
         count=count-1;
         console.log(count)
     }
-   cstr=count.toString()
+   var cstr=count.toString()
     for(var i=1;i<=3;i++)
     {
         if(i!=count)
@@ -93,6 +93,6 @@ $(".prev").on('click',()=>
     setTimeout(()=>
     {
       $('.slide'+ cstr).removeClass('fadein')
-    },3000)
+    },1000)
     
 })
