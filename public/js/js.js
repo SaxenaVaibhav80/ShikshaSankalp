@@ -53,14 +53,14 @@ function isElementInViewport(el) {
 
 $(".next").on('click',()=>
 {
-    if(count<3){
+    if(count<10){
         count=count+1;
         console.log(count)
     }
    var cstr1=count.toString()
    for(var i = count-1;i>=1;i--)
    {
-    if(count<=3){
+    if(count<=10){
         j=i.toString()
         $(".slide"+j).css({"visibility":"hidden"})
     }
@@ -74,6 +74,7 @@ $(".next").on('click',()=>
     },3000)
    
 })
+
 $(".prev").on('click',()=>
 {    
     if(count>1){
@@ -81,7 +82,7 @@ $(".prev").on('click',()=>
         console.log(count)
     }
    var cstr=count.toString()
-    for(var i=1;i<=3;i++)
+    for(var i=1;i<=10;i++)
     {
         if(i!=count)
         {    var j=i.toString()
