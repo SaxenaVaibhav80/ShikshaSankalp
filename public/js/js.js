@@ -71,7 +71,7 @@ $(".next").on('click',()=>
     setTimeout(()=>
     {
       $('.slide'+ cstr1).removeClass('fadein')
-    },3000)
+    },2000)
    
 })
 

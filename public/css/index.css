@@ -486,4 +486,9 @@ background-size: cover;
     transform: translateY(0);
   }
   
+.user_num{
+    color: black;
+    font-weight: 600;
+    margin: 0px 2px 0px 2px;
+}
   
