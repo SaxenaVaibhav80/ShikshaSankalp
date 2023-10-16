@@ -137,6 +137,12 @@
 .vidyatutpic{
     width: 103%;
 }
+.jspic{
+    width: 78%;
+}
+.nsppic{
+    width: 105%;
+}
 .dis{
     /* height: 410px; */
     width: 67%;
@@ -190,15 +196,20 @@ margin-left: 90.5%;
     margin-bottom: 30px;
     font-weight: 700;
 }
-.link{
+.readbtn{
     text-decoration: none;
+    background-color:rgb(211,200,179);
+    color: white;
+    border-style: none;
+    padding: none;
+    cursor: pointer;
 }
-.readbtn {
+.link {
         border-style: none;
         width: 13%;
         padding: 10px;
         border-radius: 22px;
-        background-color: rgb(211, 200, 179);
+        background-color:rgb(211,200,179);
         color: white;
         font-weight: 700;
         cursor: pointer;
@@ -207,6 +218,20 @@ margin-left: 90.5%;
         margin-left: 85%;
         text-decoration: none;
 
+}
+.link2{
+        border-style: none;
+        width: 17%;
+        padding: 10px;
+        border-radius: 22px;
+        background-color:rgb(211,200,179);
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 25px;
+        display: block;
+        text-decoration: none;
+        margin-left: 2%;
 }
 .readbtn:active{
     border-style: none;
@@ -222,4 +247,11 @@ margin-left: 90.5%;
     background-color: rgb(211, 200, 179);
     color: white;
     text-decoration: none;
+}
+.pdf{
+    display: inline-block;
+}
+.pdfvid{
+    display: flex;
+    width: 100%;
 }
