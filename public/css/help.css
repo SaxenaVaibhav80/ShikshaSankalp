@@ -143,6 +143,22 @@
 .nsppic{
     width: 105%;
 }
+.startuppic {
+    width: 162%;
+    
+}
+.skillindiadigitaldis{
+    width: 51%;
+    margin-left: 12%;
+}
+
+.skillindiadigitalpic{
+    width: 122%;
+}
+.startupdis{
+    width: 52%;
+    margin-left: 18%;
+}
 .dis{
     /* height: 410px; */
     width: 67%;
@@ -150,7 +166,16 @@
     text-align: center;
     opacity: 0.8;
 }
-
+.nspdis{
+    margin-left: 4%;
+}
+.nsppic2{
+width: 107%;
+}
+.nsptutdis{
+width: 62%;
+margin-left:6% ;
+}
 .slides{
     /* border: 1px solid yellow; */
     width: 95%;
@@ -164,9 +189,11 @@
     visibility: hidden;
 }
 
-
+.prev{
+    margin-left: 3%;
+}
 .next{
-margin-left: 90.5%;
+margin-left: 93%;
 }
 .next, .prev {
     border-style: none;
@@ -177,9 +204,10 @@ margin-left: 90.5%;
     cursor: pointer;
     font-size: 15px;
     background-color: rgb(211, 200, 179);
-    margin-top:17%;
+    top:76%;
     color: white;
     font-weight: 400;
+    position: absolute;
 }
 .featureimg{
     width: 100px;
@@ -253,5 +281,5 @@ margin-left: 90.5%;
 }
 .pdfvid{
     display: flex;
-    width: 100%;
+    width: 88%;
 }
