@@ -151,6 +151,11 @@
     width: 51%;
     margin-left: 12%;
 }
+.skillindiadigitaltutdis{
+    width: 55%;
+    margin-left: 9%;
+}
+
 
 .skillindiadigitalpic{
     width: 122%;
@@ -204,7 +209,7 @@ margin-left: 93%;
     cursor: pointer;
     font-size: 15px;
     background-color: rgb(211, 200, 179);
-    top:76%;
+    top:54%;
     color: white;
     font-weight: 400;
     position: absolute;
@@ -282,4 +287,63 @@ margin-left: 93%;
 .pdfvid{
     display: flex;
     width: 88%;
+}
+.footer{
+    margin-top: 200px;
+    background-color: rgb(167 154 129);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.twit,.git,.insta,.linkedin{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.usefulllinks{
+    color: white;
+    text-decoration: none;
+
+}
+
+.usefullinks:visited{
+    color: white;
+    text-decoration: none;
+}
+.usefullinks:active{
+    color: white;
+    text-decoration: none;
+}
+.homelink,.helplink,.skilllink,.mentorlink,.modulelink{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus-main{
+    text-align: center;
+    width: 280px;
+}
+.aboutus{
+    width: 29%;
+  
+}
+.footer2div{
+    padding-top: 4%;
+    /* cursor: pointer; */
+}
+.footer1{
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(123, 114, 97);
+    background-color: rgb(177, 155, 113);
+    padding: 35px;
 }

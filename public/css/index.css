@@ -256,6 +256,7 @@ background-size: cover;
 .twit,.git,.insta,.linkedin{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .usefulllinks{
@@ -273,6 +274,7 @@ background-size: cover;
 }
 .homelink,.helplink,.skilllink,.mentorlink,.modulelink{
     text-decoration: none;
+    cursor: pointer;
 }
 .footer2{
     display: flex;
@@ -292,6 +294,7 @@ background-size: cover;
 }
 .footer2div{
     padding-top: 4%;
+    
 }
 .footer1{
     text-align: center;
