@@ -18,7 +18,7 @@ body,html{
 }
 .intro1{
 
-background-image: url("/img/main2.jpg");
+background-image: url("/img/mainpageimage.jpg");
 /* Full height */
 height: 100%;
 /* Center and scale the image nicely */
@@ -59,39 +59,72 @@ background-size: cover;
 .top-bar {
     /* margin-top: 1rem; */
     width: 100%;
-    height: 110px;
+    height: 132px;
     display: flex;
     /* background-color: red; */
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0rem;
+    padding-bottom:8px ;
     z-index: 5;
 }
+.logo {
+    padding-left: 10px;
+    width: 62px;
+    height: 83px;
+    margin-left: 25px;
+}
+  .logolink{
+    margin-top: 3%;
+  }
+  .logolink{
+    padding-top: 5px;
+    text-decoration: none;
+  }
+.logodiv{
+    display: flex;
+}
+.title{
+    padding-top: 14px;
+    margin-left: 6px;
+    padding-left: 8px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #3d4042;;
+    font-family: 'Poppins', sans-serif;
+}
+
 .bar-content {
     display: flex;
     z-index: 5;
-    color: #71777b;
+    color: #3d4042;
     justify-content: space-around;
-    width: 95%;
-    margin-left: 9%;
+    width: 70%;
+    margin-left: 12%;
     padding-top: 4%;
     font-family: 'Poppins', sans-serif;
 }
 
 .nav-item-link:hover{
-    color: rgb(113, 119, 123);
+    color: #3d4042;
     text-decoration: underline;
 }
-.nav-item-link:visited{
-    color: rgb(113, 119, 123);
+.nav-item-link:visited,.logolink:visited{
+    color: #3d4042;
     text-decoration: none;
 }
 .nav-item-link{
-    color: rgb(113, 119, 123);
+    height: 20px;
+}
+.nav-items{
+    cursor: pointer;
+}
+.nav-item-link{
+    color: #3d4042;
     text-decoration: none;
 }
-.nav-item-link:active{
-    color: rgb(113, 119, 123);
+.nav-item-link:active,.logolink:active{
+    color: #3d4042;
     text-decoration: none;
 }
 
@@ -129,7 +162,12 @@ background-size: cover;
     0%{opacity:0}
     100%{opacity: 0.7}
 }
-
+#user{
+    margin-right: 5px;
+}
+.nav-items:hover{
+    text-decoration: underline;
+} 
 .animate {
     font-size: 60px;
     animation-name: fadein;
@@ -137,7 +175,7 @@ background-size: cover;
     color: aliceblue;
     padding-top: 0;
     padding-left: 2%;
-    opacity: 0.7
+    opacity: 0.8;
 }
 
 .animatecover {
@@ -211,7 +249,7 @@ background-size: cover;
     font-weight: 900;
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
-    color:rgb(162,204,227);
+    color: white;
     /* text-decoration: underline; */
 }
 .beforefoot{
@@ -230,25 +268,31 @@ background-size: cover;
     width: 85%;
 }
 
-.compic,.wspic,.sathipic,.helppic{
+.wspic,.sathipic,.helppic{
     width: 300px;
     height: 310px
 }
+.compic{
+    width: 313px;
+    height: 348px;
+}
 .todopic{
-    width: 250px;
-    height: 280px
+    width: 425px;
+    height: 278px;
 }
 
-.comdis,.sathidis,.helpdis,.tododis,.wsdis{
-    margin-top: 5%;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(125, 134, 141);
-}
+
+.comdis, .sathidis, .helpdis, .tododis, .wsdis {
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(125, 134, 141);
+        margin-left: 3%;
+    }
 .helpdesk{
     padding-bottom: 120px;
 }
 .footer{
-    background-color: rgb(13,39,53);
+    background-color: rgb(167 154 129);
     font-family: 'Poppins', sans-serif;
     color: white;
 }
@@ -262,6 +306,7 @@ background-size: cover;
 .usefulllinks{
     color: white;
     text-decoration: none;
+
 }
 
 .usefullinks:visited{
@@ -294,16 +339,17 @@ background-size: cover;
 }
 .footer2div{
     padding-top: 4%;
-    
+    /* cursor: pointer; */
 }
 .footer1{
     text-align: center;
     border-top-width: 1px;
     border-top-style: solid;
-    border-top-color: rgb(30, 76, 100);
-    background-color: rgb(11,33,45);
+    border-top-color: rgb(152, 143, 126);
+    background-color: rgb(177, 155, 113);
     padding: 35px;
 }
+
 .signindiv{
     width: 500px;
     height: 350px;
@@ -460,13 +506,13 @@ background-size: cover;
   .callinput{
     margin-top: 15px;
   }
-  .logo{
+  .logomain {
     padding-left: 10px;
-    width: 200px;
-    height: 50px;
-    margin-top: 3%;
+    width: 79px;
+    height: 94px;
     margin-left: 25px;
-  }
+    margin-top: 25%;
+}
   @keyframes fade_in {
     0% {
         opacity: 0;
