@@ -541,3 +541,57 @@ background-size: cover;
     margin: 0px 2px 0px 2px;
 }
   
+.pro{
+    width: 14%;
+    /* height: 360px; */
+    position:absolute;
+    right:1.8%;
+    top:70%;
+    visibility: hidden;
+    /* color: rgb(75, 79, 83); */
+    color: black;
+    background-color:white;
+    border: 2px solid black;
+    border-radius:10px ;
+    padding-top: 20px;
+}
+.medal{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+.pro-div{
+    /* border: 1px solid black; */
+    padding: 15px;
+}
+#proicon1,#proicon2,#proicon3,#proicon4,#proicon5{
+    padding-right: 10px;
+}
+#pp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.ppdiv{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.logout{
+    background-color: black;
+    color:white;
+    border-bottom:1px solid black;
+    border-radius: 0px 0px 8px 8px;
+}
+.uploadbtn{
+    width: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left:62px;
+    margin-top: 10px;
+}
+#input-file{
+    visibility: hidden;
+}

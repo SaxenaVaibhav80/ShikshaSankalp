@@ -97,3 +97,23 @@ $(".prev").on('click',()=>
     },1000)
     
 })
+
+
+$(document).on("click",(x)=>
+{ var cl=(x.target.classList[1])
+  var bt=(x.target.classList[0])
+  var exit=(x.target.classList[1])
+  if(cl=="my_profile" || (bt=="uploadbtn") || (exit=="logout")){
+    $(".pro").css({'visibility':"visible"})
+  }
+  else{
+    $(".pro").css({'visibility':'hidden'})
+  }
+})
+
+var  profilePic=document.getElementById("pp")
+var  inputFile=document.getElementById("input-file")
+
+  inputFile.onchange = function() {
+  profilePic.src = URL.createObjectURL(inputFile.files[0]);
+}
