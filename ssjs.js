@@ -25,6 +25,16 @@ app.get('/help', (req,res)=>
     res.sendFile(__dirname+'/help.html')
 });
 
+app.get('/skills', (req,res)=>
+{
+    res.sendFile(__dirname+'/skill.html')
+});
+// ----------------------------------for searching course------------------------
+// app.post('/skills', (req,res)=>
+// {
+//     console.log(req.body.courses)
+// });
+
 
 
 

@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-bar {
+    /* margin-top: 1rem; */
+    width: 100%;
+    height: 132px;
+    display: flex;
+    /* background-color: red; */
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0rem;
+    padding-bottom:8px ;
+    z-index: 5;
+}
+.bar-content {
+    display: flex;
+    z-index: 5;
+    color: #1f2021;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 12%;
+    padding-top: 4%;
+    font-family: 'Poppins', sans-serif;
+}
+#user{
+    margin-right: 5px;
+}
+.nav-items{
+    cursor: pointer;
+}
+.nav-items:hover{
+    text-decoration: underline;
+} 
+.nav-item-link{
+    height: 20px;
+}
+.nav-item-link:hover{
+    color: #1f2021;
+    text-decoration: underline;
+}
+.nav-item-link:visited,.logolink:visited{
+    color: #1f2021;
+    text-decoration: none;
+}
+.nav-item-link,.logolink{
+    color: #1f2021;
+    text-decoration: none;
+}
+.nav-item-link:active,.logolink:active{
+    color: #1f2021;
+    text-decoration: none;
+}
+.logo {
+    padding-left: 10px;
+    width: 62px;
+    height: 83px;
+    margin-left: 25px;
+}
+  .logolink{
+    margin-top: 3%;
+  }
+  .logolink{
+    padding-top: 5px;
+  }
+.logodiv{
+    display: flex;
+}
+.title{
+    padding-top: 14px;
+    margin-left: 6px;
+    padding-left: 8px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: black;
+}
+.pro{
+    width: 14%;
+    /* height: 390px; */
+    position:absolute;
+    right:1.8%;
+    top:70%;
+    visibility: hidden;
+    /* color: rgb(75, 79, 83); */
+    color: black;
+    background-color:white;
+    border: 2px solid black;
+    border-radius:10px ;
+    padding-top: 20px;
+}
+.medal{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+.pro-div{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+#proicon1,#proicon2,#proicon3,#proicon4,#proicon5{
+    padding-right: 10px;
+}
+#pp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.ppdiv{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.logout{
+    background-color: black;
+    color:white;
+    border-bottom:1px solid black;
+    border-radius: 0px 0px 8px 8px;
+}
+.uploadbtn{
+    width: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left:62px;
+    margin-top: 10px;
+}
+#input-file{
+    visibility: hidden;
+}
+.modijiskill{
+    width: 100%;
+    height: 700px;
+}
+.main-display{
+    margin-top: 145px;
+}
+.counts{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 25%;
+    position: absolute;
+    top:640px;
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 50px 20px 50px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.searchbardiv{
+    margin-top: 140px;
+    display: flex;
+    border: 1px solid black;
+    margin-left: 60%;
+    width:35%;
+}
+.searchbar{
+    margin-left:20px;
+    outline: none;
+    border-style:none ;
+}
+
+.searchbtn{
+    border-style:none ;
+    background-color: black;
+    color: white;
+    width: 160px;
+    font-size: 17px;
+    padding: 8px 5px 8px 5px;
+    cursor: pointer;
+}
+
+.searchbtndiv{
+    background-color: black;
+    font-weight: 700;
+   
+}
+#search{
+    margin-left: 8px;
+}
+.skills-feature-div{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 8%;
+}
+.skillbox{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    /* background: rgb(203, 236, 236); */
+    border-radius: 17px;
+}
+.typeskillpic,.writeskillpic{
+    width: 250px;
+    height: 250px;
+    border-radius: 17px;
+    /* filter: blur(1px); */
+}
+.typeskilldis,.writeskilldis{
+    position: absolute;
+    top: 1040px;
+    width: 225px;
+    height: 240px;
+
+    margin-left: 15px;
+    color: white;
+}
+.visit{
+    margin-top: 130px;
+}
+#arrow-right{
+    margin-left: 6px;
+}
