@@ -180,38 +180,146 @@
 #search{
     margin-left: 8px;
 }
-.skills-feature-div{
+.communicationskilldiv,.readingskilldiv,.writingskilldiv{
     display: flex;
-    justify-content: space-between;
-    width: 75%;
-    margin-left: 12.5%;
-    margin-top: 8%;
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    padding-top: 60px
 }
-.skillbox{
-    width: 250px;
-    height: 250px;
-    border: 1px solid black;
-    /* background: rgb(203, 236, 236); */
-    border-radius: 17px;
+.typingskilldiv,.learningskilldiv{
+    display: flex;
+    margin-left:120px;
 }
-.typeskillpic,.writeskillpic{
-    width: 250px;
-    height: 250px;
-    border-radius: 17px;
-    /* filter: blur(1px); */
+.typeskillpic,.communicationskillpic,.readingskillpic,.writingskillpic{
+    width: 380px;
+    height: 350px;
 }
-.typeskilldis,.writeskilldis{
-    position: absolute;
-    top: 1040px;
-    width: 225px;
-    height: 240px;
+.learningskillpic{
+    width: 500px;
+    height: 350px;
+}
+.skilldiv-main{
+    margin-top: 50px;
+}
+.writngskilldiscrip,.readingskilldiscrip,.communicationskilldiscrip{
+   width: 60%;
+   margin-left: 60px;
+}
 
-    margin-left: 15px;
+.typingskilldiscrip{
+    margin-top: 50px;
+    width: 60%;
+    margin-right: 120px;
+    }
+.learningskilldiscrip{
+    margin-top: 50px;
+    width: 55%;
+    margin-right: 40px;
+}
+.discriphead{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: rgb(223, 200, 172);
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill_select_btn{
+    text-align: center;
+    border-style: none;
+    border: 1px solid rgb(201, 180, 155);
+    border-radius: 27px;
+    background-color:rgb(201, 180, 155);
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
+    width: 18%;
+    padding: 10px 15px 10px 15px ;
+}
+.footer{
+    background-color: rgb(167 154 129);
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
-.visit{
-    margin-top: 130px;
+
+.twit,.git,.insta,.linkedin{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
-#arrow-right{
-    margin-left: 6px;
+
+.usefulllinks{
+    color: white;
+    text-decoration: none;
+
+}
+
+.usefullinks:visited{
+    color: white;
+    text-decoration: none;
+}
+.usefullinks:active{
+    color: white;
+    text-decoration: none;
+}
+.homelink,.helplink,.skilllink,.mentorlink,.modulelink{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus-main{
+    text-align: center;
+    width: 280px;
+}
+.aboutus{
+    width: 29%;
+  
+}
+.footer2div{
+    padding-top: 4%;
+    /* cursor: pointer; */
+}
+.footer1{
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(152, 143, 126);
+    background-color: rgb(177, 155, 113);
+    padding: 35px;
+}
+.ngslink-img,.g20link-img,.npilink-imgm,.ngslink-img{
+    width: 100px;
+    height: 100px;
+}
+
+.footertop-gov-link-div{
+    width: 58%;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.skillindialink-img{
+ width: 140px;
+ height: 100px;
+}
+.my_gov-link-img{
+    width: 180px;
+ height: 100px;
+}
+.digi-in-link-img{
+    width: 150px;
+ height: 100px;
+}
+.madein-india-link-img{
+ width: 150px;
+ height: 100px;
 }
