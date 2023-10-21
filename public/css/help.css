@@ -229,11 +229,11 @@ margin-left: 93%;
     width: 50px;
     padding: 6px;
     border-radius: 20px;
-    border: 1px solid rgb(218, 204, 175);
+    border: 1px solid rgb(184 171 147);
     cursor: pointer;
     font-size: 15px;
-    background-color: rgb(211, 200, 179);
-    top:54%;
+    background-color: rgb(184 171 147);
+    top: 1106px;
     color: white;
     font-weight: 400;
     position: absolute;
@@ -255,7 +255,7 @@ margin-left: 93%;
 }
 .readbtn{
     text-decoration: none;
-    background-color:rgb(211,200,179);
+    background-color:rgb(184 171 147);
     color: white;
     border-style: none;
     padding: none;
@@ -266,7 +266,7 @@ margin-left: 93%;
         width: 13%;
         padding: 10px;
         border-radius: 22px;
-        background-color:rgb(211,200,179);
+        background-color:rgb(184 171 147);
         color: white;
         font-weight: 700;
         cursor: pointer;
@@ -339,7 +339,7 @@ margin-left: 93%;
     color: white;
     text-decoration: none;
 }
-.homelink,.helplink,.skilllink,.mentorlink,.modulelink{
+.homelink,.helplink,.skilllink,.mentorlink,.modulelink,.feedbacklink{
     text-decoration: none;
     cursor: pointer;
 }
@@ -433,7 +433,7 @@ margin-left: 93%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 260px;
 }
 .skillindialink-img{
  width: 140px;
