@@ -342,6 +342,7 @@ margin-left: 93%;
 .homelink,.helplink,.skilllink,.mentorlink,.modulelink,.feedbacklink{
     text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 .footer2{
     display: flex;
