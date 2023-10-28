@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: none;
+}
 .pro{
     width: 14%;
     /* height: 360px; */
     position:absolute;
     right:1.8%;
-    top:70%;
+    top:72%;
     visibility: hidden;
     /* color: rgb(75, 79, 83); */
     color: black;
@@ -42,12 +49,16 @@
 }
 .uploadbtn{
     width: 50px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 27px 10px 20px;
     background-color: black;
     color: white;
     border-radius: 10px;
     margin-left:87px;
     margin-top: 10px;
+    text-align: center;
+}
+#input-file{
+    visibility: hidden;
 }
 .top-bar {
     /* margin-top: 1rem; */
@@ -64,7 +75,7 @@
 .bar-content {
     display: flex;
     z-index: 5;
-    color: #71777b;
+    color: black;
     justify-content: space-around;
     width: 70%;
     margin-left: 12%;
@@ -84,19 +95,19 @@
     height: 20px;
 }
 .nav-item-link:hover{
-    color: rgb(113, 119, 123);
+    color: black;
     text-decoration: underline;
 }
 .nav-item-link:visited,.logolink:visited{
-    color: rgb(113, 119, 123);
+    color: black;
     text-decoration: none;
 }
 .nav-item-link,.logolink{
-    color: rgb(113, 119, 123);
+    color: black;
     text-decoration: none;
 }
 .nav-item-link:active,.logolink:active{
-    color: rgb(113, 119, 123);
+    color: black;
     text-decoration: none;
 }
 .basic-intro{
@@ -121,8 +132,312 @@
 .title{
     padding-top: 14px;
     margin-left: 6px;
+    color: black;
     padding-left: 8px;
     border-left-style: solid;
     border-left-width: 2px;
     border-left-color: black;
+}
+
+.usefullinkshead,.contactushead,.serviceshead,.aboutushead{
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* text-decoration: underline; */
+}
+.beforefoot{
+    border: 1px silid red;
+    background-color: white;
+    margin-top: 2%;
+    height: 1880px;
+
+}
+.communicationskilldiv ,.sathidiv,.helpdesk{
+    display: flex;
+    margin-left: 4%;
+    width: 85%;
+}
+.writingskilldiv,.tododiv{
+    display: flex;
+    margin-left: 12%;
+    width: 85%;
+}
+
+.wspic,.sathipic,.helppic{
+    width: 300px;
+    height: 310px
+}
+.compic{
+    width: 313px;
+    height: 348px;
+}
+.todopic{
+    width: 425px;
+    height: 278px;
+}
+
+
+.comdis, .sathidis, .helpdis, .tododis, .wsdis {
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(125, 134, 141);
+        margin-left: 3%;
+    }
+.helpdesk{
+    padding-bottom: 120px;
+}
+.footer{
+    background-color: rgb(167 154 129);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.footertop-gov-link-div{
+    width: 58%;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top:599px;
+}
+
+.skillindialink-img{
+ width: 140px;
+ height: 100px;
+}
+.my_gov-link-img{
+    width: 180px;
+ height: 100px;
+}
+.digi-in-link-img{
+    width: 150px;
+ height: 100px;
+}
+.madein-india-link-img{
+ width: 150px;
+ height: 100px;
+}
+.twit,.git,.insta,.linkedin{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.usefulllinks{
+    color: white;
+    text-decoration: none;
+
+}
+
+.usefullinks:visited{
+    color: white;
+    text-decoration: none;
+}
+.usefullinks:active{
+    color: white;
+    text-decoration: none;
+}
+.homelink,.helplink,.skilllink,.mentorlink,.modulelink,.feedbacklink{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus{
+    display: flex;
+    justify-content: space-around;
+}
+.contactus-main{
+    text-align: center;
+    width: 280px;
+}
+.aboutus{
+    width: 29%;
+  
+}
+.footer2div{
+    padding-top: 4%;
+    /* cursor: pointer; */
+}
+.footer1{
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(152, 143, 126);
+    background-color: rgb(177, 155, 113);
+    padding: 35px;
+}
+.emod-basic-themeninfo {
+    background-color: rgb(238,238,238);
+    height: 850px;
+    width: 100%;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emodbgpiccls {
+    width: 834px;
+    height: 816px;
+    margin-left: 20px;
+}
+
+.emodthemedis {
+    margin-left: 110px;
+    margin-top: 240px;
+}
+@keyframes fadein {
+    0%{opacity:0}
+    100%{opacity: 1}
+}
+.emodthemehead1{
+    font-size: 61px;
+    text-align: center;
+    font-weight: 700;
+    animation-name: fadein;
+    animation-duration: 3s;
+    color: black;
+}
+.emodthemehead2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    animation-name: fadein;
+    animation-duration: 3s;
+    color: black;
+}
+.emodsearchbtn{
+
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    display: inline-block;
+}
+.emodsearchinput{
+    display: inline-block;
+    background-color: rgb(238,238,238);
+    border-style: none;
+    outline: none;
+    padding-left:20px ;
+    width:360px;
+}
+.emodsearchinput::placeholder{
+  font-size: 20px;
+}
+.searchbar{
+    border: 1px solid black;
+    margin-top: 70px;
+}
+.languange-head{
+    font-weight: 600;
+    margin-left:550px;
+    font-size: 35px;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+.emodsearchbtn2{
+
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    display: inline-block;
+}
+.emodsearchinput2{
+    display: inline-block;
+    background-color:white;
+    border-style: none;
+    outline: none;
+    padding-left:20px ;
+    width:360px;
+}
+.emodsearchinput2::placeholder{
+  font-size: 20px;
+}
+.searchbar2{
+    width: 600px;
+    border: 1px solid black;
+    margin-top: 70px;
+    margin-left: 1145px;
+}
+.courses-carousel-div-eng{
+    width: 1500px;
+    /* border: 1px solid black; */
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.slides{
+    width: 1400px;
+}
+.sub{
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color:rgb(238,238,238);
+    padding:30px 10px 30px 20px;
+    box-shadow: -3px -3px 9px #aaa9a95c, 3px 3px 7px rgb(147 149 151 / 25%)
+}
+.course-slide-3,.course-slide-4,.course-slide-2,.course-slide-5{
+    display: flex;
+    justify-content: space-around;
+    visibility: hidden;
+    position: absolute;
+}
+.course-slide-1{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+.subhead{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.subarrow{
+    margin-left: 12px;
+}
+.subhead-dis{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.visit-sub-link{
+    padding: 10px 15px 10px 15px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+.visitbtn{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border-style: none;
+    outline: none;
+    font-weight: 700;
+}
+.larrow{
+    left: 6%;
+}
+.rarrow{
+    right: 8%;
+}
+.larrow, .rarrow{
+    border-style: none;
+    width: 50px;
+    padding: 6px;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 220, 220);
+    cursor: pointer;
+    font-size: 15px;
+    background-color:rgb(238,238,238);
+    top: 1460px;
+    color: black;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
 }

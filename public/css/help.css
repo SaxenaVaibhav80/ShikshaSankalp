@@ -59,7 +59,7 @@
 .minister-pic-div{
     display: flex;
     width: 400px;
-    margin-left: 335px;
+    margin-left: 461px;
     padding-top: 40px;
 }
 .ministers-pic
@@ -138,16 +138,25 @@
     justify-content: space-around;
 }
 
-.ss{
-    width: 80%;
+.ss {
+    width: 90%;
     /* border: 1px solid red; */
-    /* height: 410px; */
+    /* height: 490px; */
     position: absolute;
     display: flex;
     box-shadow: -3px -3px 9px #aaa9a95c, 3px 3px 7px rgb(147 149 151 / 25%);
-    margin-left: 5%;
+    margin-left: 1%;
     padding: 20px;
-
+}
+.slide10{
+        width: 90%;
+        /* border: 1px solid red; */
+        /* height: 490px; */
+        position: absolute;
+        display: flex;
+        box-shadow: -3px -3px 9px #aaa9a95c, 3px 3px 7px rgb(147 149 151 / 25%);
+        margin-left: 1%;
+        padding: 20px 47px 20px 20px;
 }
 .picdiv{
     /* height: 410px; */
@@ -155,7 +164,7 @@
     /* border:1px solid green; */
 }
 .pic{
-    height: 400px;
+    height: 490px;
     width:90%;
 }
 .vidyatutpic{
@@ -181,8 +190,8 @@
 }
 
 
-.skillindiadigitalpic{
-    width: 122%;
+.skillindiadigitalpic {
+    width: 140%;
 }
 .startupdis{
     width: 52%;
@@ -218,25 +227,28 @@ margin-left:6% ;
     visibility: hidden;
 }
 
-.prev{
-    margin-left: 3%;
+
+.prev {
+    margin-left: 1%;
 }
-.next{
-margin-left: 93%;
+.next {
+    margin-left: 2%;
 }
 .next, .prev {
     border-style: none;
-    width: 50px;
-    padding: 6px;
+    width: 39px;
+    padding: 0px;
     border-radius: 20px;
     border: 1px solid rgb(184 171 147);
     cursor: pointer;
     font-size: 15px;
     background-color: rgb(184 171 147);
-    top: 1106px;
+    top: 1175px;
     color: white;
+    height: 27px;
+    margin-top: 13%;
     font-weight: 400;
-    position: absolute;
+    /* position: absolute; */
 }
 .featureimg{
     width: 100px;
@@ -249,7 +261,7 @@ margin-left: 93%;
 }
 .dishead{
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 60px;
     margin-bottom: 30px;
     font-weight: 700;
 }
@@ -418,7 +430,7 @@ margin-left: 93%;
 }
 .uploadbtn{
     width: 50px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 27px 10px 20px;
     background-color: black;
     color: white;
     border-radius: 10px;

@@ -1,54 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/emodule.css">
-    <title>E-module</title>
-</head>
-<body>
-    <div class="intro1" >
-        <div class="top-bar"> 
-          <a href="/" class="logolink">
-            <div class="logodiv">
-               <img src="img/ashokstambhlogo.png" class="logo" >
-               <div class="title">ShikshaSankalp<br>Smart India
+<html>
+   <head>
+       <link rel="stylesheet" href="css/emodule.css">
+       <title>E-module</title>
+       <link href="img/flag.png" rel="icon">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+       <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="intro1" >
+            <div class="top-bar"> 
+              <a href="/" class="logolink">
+                <div class="logodiv">
+                   <img src="img/ashokstambhlogo.png" class="logo" >
+                   <div class="title">ShikshaSankalp<br>Smart India
+                   </div>
+                </div>
+             </a>
+               <div class="bar-content">
+                    <div id="google_translate_element"></div>
+                    <a class="nav-item-link" href="E-Module"><p class="nav-items mod"><p>E-Module</p></a>
+                    <a class="nav-item-link" href="E-Mentor"><p class="nav-items mentor"><p>E-Mentor</p></a>
+                    <a class="nav-item-link" href="help"><p class="nav-items help"><p>Help Desk</p></a>
+                    <a class="nav-item-link" href="skills"><p class="nav-items skill"><p>Skills</p></a>
+                    <a class="nav-item-link" href="jobs"><p class="nav-items job"><p>Job search</p></a>
+                    <p class="nav-items  nav-item-link" id="login">LOGIN</p>
+                    <p class="nav-items  nav-item-link" id="join">JOIN US</p>
+                    <p class="nav-items my_profile"><i class="fa fa-user" id="user" aria-="true "></i>Profile</p>
+                </div>
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement(
+                            {pageLanguage: 'en',includedLanguages : 'ar,as,bn,bho,gu,hi,id,kn,ml,mr,ne,or,pa,sa,ta,te,ur'},
+                            'google_translate_element'
+                        );
+                    }
+                  </script>
+                  <script type="text/javascript"
+                          src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                  </script>
+                 <div class="pro">
+                     <div class="ppdiv"><img src="img/user.jpg" id="pp">
+                       <label class="uploadbtn" style="display: block;" for="input-file">upload</label>
+                       <input accept="image/jpeg,image/png,image/jpg" type="file" id="input-file">
+                     </div>
+                     <div class="pro-div fname"><i class="fas fa-user" id="proicon1"></i>Vaibhav Saxena</div>
+                     <div class="pro-div loc"><i class="fa-solid fa-location-dot" id="proicon1"></i>Lucknow</div>
+                     <div class="pro-div percentage"><i class="fa-solid fa-square-poll-vertical" id="proicon2"></i>Progress:90%</div>
+                     <div class="pro-div percentage skill"><i class="fa-solid fa-square-poll-vertical" id="proicon2"></i>Skills:100%</div>
+                     <div class="pro-div badge"><i class="fa-solid fa-award" id="proicon4"></i>badge:<img src="img/gold_medal.png" class="medal"id="proicon3"></div>
+                     <div class="pro-div logout"><i class="fa-solid fa-arrow-right-from-bracket"id="proicon5"></i>sign out</div>
+                </div>
+            </div>
+        </div>
+        <div class="emod-basic-themeninfo">
+            <div class="emodthemedis">
+                <div class="emodthemehead1">Find Best courses Here</div>
+                <div class="emodthemehead2">In Offline Mode</div>
+                <div class="searchbar"> 
+                    <form action="\E-Module" method="post"> 
+                       <div class="emodsearchbtn"><i class="fas fa-search"></i> Search</div>
+                       <input type="text" class="emodsearchinput" placeholder="Example : Physics" name="subject">
+                    </form>
+                </div>
+            </div>  
+          <img src="img/mind.png" class="emodbgpiccls">
+        </div>
+        <!-- --------------------------------------------------------- carousel------------------------------------------------------------------------------- -->
+        <p class="languange-head">Choose The E-Modules in Any Language</p>
+    
+        <div class="searchbar2">
+            <form action="\E-Module" method="post"> 
+                <div class="emodsearchbtn2"><i class="fas fa-search"></i> Search</div>
+                <input type="text" class="emodsearchinput2" placeholder="Example : Hindi" name="language">
+            </form>
+        </div>
+    
+        <div class="courses-carousel-div-eng">
+            <i class="fa-solid fa-arrow-left larrow"></i>
+            <div class="course-slide-1 slides">
+               <div class="physub sub">
+                  <p class="physub-head subhead">Physics <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                  <div class="subhead-dis" >
+                    Access a free downloadable physics e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                  </div>
+                  <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+               </div>
+               <div class="chemsub sub">
+                  <p class="physub-head subhead">Chemistry <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                  <div class="subhead-dis">
+                    Access a free downloadable Chemistry e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                  </div>
+                  <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+               </div>
+               <div class="mathsub sub">
+                  <p class="physub-head subhead">Maths <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                  <div class="subhead-dis">
+                    Access a free downloadable Maths e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                  </div>
+                  <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
                </div>
             </div>
-         </a>
-          <div class="bar-content">
-               <div id="google_translate_element"></div>
-               <a class="nav-item-link" href="E-Module"><p class="nav-items mod"><p>E-Module</p></a>
-               <a class="nav-item-link" href="E-Mentor"><p class="nav-items mentor"><p>E-Mentor</p></a>
-               <a class="nav-item-link" href="help"><p class="nav-items help"><p>Help Desk</p></a>
-               <a class="nav-item-link" href="skills"><p class="nav-items skill"><p>Skills</p></a>
-               <a class="nav-item-link" href="jobs"><p class="nav-items job"><p>Job search</p></a>
-               <p class="nav-items  nav-item-link" id="login">LOGIN</p>
-               <p class="nav-items  nav-item-link" id="join">JOIN US</p>
-               <p class="nav-items my_profile"><i class="fa fa-user" id="user" aria-hidden="true "></i>Profile</p>
-           </div>
-          <div class="pro">
-            <div class="ppdiv"><img src="img/user.jpg" id="pp">
-              <label class="uploadbtn" style="display: block;" for="input-file">upload</label>
-              <input accept="image/jpeg,image/png,image/jpg" type="file" id="input-file">
+    
+            <div class="course-slide-2 slides" >
+                <div class="biosub sub" >
+                    <p class="physub-head subhead">Biology <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Biology e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="historysub sub" >
+                    <p class="physub-head subhead">History <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable History e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                </div>
+                <div class="civicssub sub" >
+                    <p class="physub-head subhead">Civics <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Civics e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
             </div>
-            <div class="pro-div fname"><i class="fas fa-user" id="proicon1"></i>Vaibhav Saxena</div>
-            <div class="pro-div loc"><i class="fa-solid fa-location-dot" id="proicon1"></i>Lucknow</div>
-            <div class="pro-div percentage"><i class="fa-solid fa-square-poll-vertical" id="proicon2"></i>Progress:90%</div>
-            <div class="pro-div percentage skill"><i class="fa-solid fa-square-poll-vertical" id="proicon2"></i>Skills:100%</div>
-            <div class="pro-div badge"><i class="fa-solid fa-award" id="proicon4"></i>badge:<img src="img/gold_medal.png" class="medal"id="proicon3"></div>
-            <div class="pro-div logout"><i class="fa-solid fa-arrow-right-from-bracket"id="proicon5"></i>sign out</div>
-          </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-                {pageLanguage: 'en' ,includedLanguages : 'ar,as,bn,bho,gu,hi,id,kn,ml,mr,ne,or,pa,sa,ta,te,ur'},
-                'google_translate_element'
-            );
-        }
-    </script>
-    <script src="js/js.js"></script>
-</body>
+    
+            <div class="course-slide-3 slides" > 
+                <div class="geosub sub" >
+                    <p class="physub-head subhead">Geography <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Geography e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="ecosub sub" > 
+                    <p class="physub-head subhead">Economics <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Economics e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="gramsub sub" >
+                    <p class="physub-head subhead">English Grammer <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable English Grammer e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+            </div>
+    
+            <div class="course-slide-4 slides" >
+                <div class="loansub sub" >
+                    <p class="physub-head subhead">Loan <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable  e-module to learn about Loan in offline mode, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="excelsub sub" >
+                    <p class="physub-head subhead">Learn Excel <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Excel e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="experimentsphysub sub" >
+                    <p class="physub-head subhead">Experiments <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Experiment and Demonstration e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+            </div>
+    
+            <div class="course-slide-5 slides" >
+                <div class="indihissub sub" >
+                    <p class="physub-head subhead">Indian History <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Indian History e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="gksub sub" >
+                    <p class="physub-head subhead">Gernal Knowledge <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable General Knowledge e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+                </div>
+                <div class="currentaffairsub sub" >
+                    <p class="physub-head subhead">Current Affairs <i class="fa-solid fa-arrow-right subarrow"></i></p>
+                    <div class="subhead-dis">
+                        Access a free downloadable Current Affairs e-module offline, enabling anytime use even without an internet connection. Download now for uninterrupted access.
+                    </div>
+                    <a class="visit-sub-link physubbtn" href="#"><button class="visitbtn">Learn</button></a>
+               </div>
+            </div>
+           <i class="fa-solid fa-arrow-right rarrow"></i>
+       </div>
+  <!-- ----------------------------------------------------------carousel-end-------------------------------------------------------------------------->
+      <div class="footertop-gov-link-div">
+         <a target="_blank" href="https://www.skillindiadigital.gov.in/home" class="skillindia-link"><img src="img/skillindia.png" class="skillindialink-img"></a>
+         <a target="_blank" href="https://www.mygov.in/" class="my_gov-link"><img src="img/my_gov.png" class="my_gov-link-img"></a>
+         <a target="_blank" href="https://digitalindia.gov.in/" class="digi-in-link"><img src="img/digindia.png" class="digi-in-link-img"></a>
+         <a target="_blank" href="https://studyinindia.gov.in/blogs/made-in-india,-now-gone-global!" class="madein-india-link"><img src="img/madeinindia.png" class="madein-india-link-img"></a>
+       </div>
+       <div class="footer" >
+            
+         <div class="footer2">
+             <div class="usefullinksdiv footer2div">
+                <p class="usefullinkshead">Useful Links</p><br><br>
+                > <a class="homelink   usefullinks"href="#" >Home</a>     <br><br>
+                > <a class="feedbacklink   usefullinks"href="#" > Suggestion/Feedback</a>     <br><br>
+                > <a class="helplink   usefullinks"href="#">Help Desk</a><br><br>
+                > <a class="skilllink  usefullinks"href="#">Skills</a><br><br>
+                > <a class="mentorlink usefullinks  "href="#">E-Mentor</a><br><br>
+                > <a class="modulelink usefullinks "href="#">E-Module</a><br><br>
+             </div>
+             <div class="services footer2div">
+                <p class="serviceshead">Services</p><br><br>
+                > ChatBot           <br><br>
+                > Test Evaluation<br><br>
+                > Providing Jobs<br><br>
+                > Progress Meter<br><br>
+                > E-learning<br><br>
+                > Skill Development
+             </div>
+             <div class="contactus-main footer2div">
+                     <p class="contactushead">Contact Us</p><br><br>
+                 <div class="contactus">
+                    <a href="#" class="twitlink"><img src="img/twitter.png" class="twit"></a>
+                    <a href="#" class="gitlink"><img src="img/github-sign.png" class="git"></a>
+                    <a href="#" class="instalink"><img src="img/instagram.png" class="insta"></a>
+                    <a href="#" class="linkedinlink"><img src="img/linkedin.png" class="linkedin"></a>
+                 </div>
+             </div>
+             <div class="aboutus footer2div">
+                 <p class="aboutushead">About Us</p><br><br>
+                 We're dedicated to offering you a premier learning and assessment platform. We help you enhance your skills and track your progress.
+             </div>
+         </div>
+         <div class="footer1">
+                        <bold>© Copyright ShikshaSankalp. All Rights Reserved</bold><br>
+                          <small>Designed by Vaibhav Saxena</small>
+         </div>
+       </div>
+ 
+      <script src="js/js.js"></script>
+    </body>
 </html>
