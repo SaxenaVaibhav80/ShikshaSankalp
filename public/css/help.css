@@ -139,23 +139,23 @@
 }
 
 .ss {
-    width: 90%;
+    width: 83%;
     /* border: 1px solid red; */
     /* height: 490px; */
     position: absolute;
     display: flex;
     box-shadow: -3px -3px 9px #aaa9a95c, 3px 3px 7px rgb(147 149 151 / 25%);
-    margin-left: 1%;
+    margin-left: 4%;
     padding: 20px;
 }
 .slide10{
-        width: 90%;
+        width: 83%;
         /* border: 1px solid red; */
         /* height: 490px; */
         position: absolute;
         display: flex;
         box-shadow: -3px -3px 9px #aaa9a95c, 3px 3px 7px rgb(147 149 151 / 25%);
-        margin-left: 1%;
+        margin-left: 4%;
         padding: 20px 47px 20px 20px;
 }
 .picdiv{
@@ -218,7 +218,7 @@ margin-left:6% ;
     /* border: 1px solid yellow; */
     width: 95%;
     margin-left: 3%;
-    margin-top:9%;
+    margin-top:12%;
     height:460px;
 }
 
@@ -243,10 +243,10 @@ margin-left:6% ;
     cursor: pointer;
     font-size: 15px;
     background-color: rgb(184 171 147);
-    top: 1175px;
+    /* top: 1175px; */
     color: white;
     height: 27px;
-    margin-top: 13%;
+    margin-top: 16%;
     font-weight: 400;
     /* position: absolute; */
 }
@@ -282,7 +282,7 @@ margin-left:6% ;
         color: white;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 25px;
+        margin-top: 60px;
         display: block;
         margin-left: 85%;
         text-decoration: none;
@@ -297,7 +297,7 @@ margin-left:6% ;
         color: white;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 25px;
+        margin-top: 60px;
         display: block;
         text-decoration: none;
         margin-left: 2%;
@@ -446,7 +446,7 @@ margin-left:6% ;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    margin-top: 260px;
+    margin-top: 360px;
 }
 .skillindialink-img{
  width: 140px;
