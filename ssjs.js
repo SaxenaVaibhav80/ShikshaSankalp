@@ -35,7 +35,10 @@ app.get('/skills', (req,res)=>
 //     console.log(req.body.courses)
 // });
 
-
+app.get('/E-Module', (req,res)=>
+{
+    res.sendFile(__dirname+'/emodule.html')
+});
 
 
 app.listen(3000)
