@@ -117,3 +117,50 @@ var  inputFile=document.getElementById("input-file")
   inputFile.onchange = function() {
   profilePic.src = URL.createObjectURL(inputFile.files[0]);
 }
+
+
+$(".rarrow").on('click',()=>
+{
+    if(count<5){
+        count=count+1;
+        console.log(count)
+    }
+   var cstr1=count.toString()
+   for(var i = count-1;i>=1;i--)
+   {
+    if(count<=5){
+        j=i.toString()
+        $(".course-slide-"+j).css({"visibility":"hidden"})
+    }
+   }
+
+   $('.course-slide-'+cstr1).css({"visibility":"visible"})
+   $('.course-slide-'+ cstr1).addClass('fadein')
+    setTimeout(()=>
+    {
+      $('.course-slide-'+ cstr1).removeClass('fadein')
+    },3000)
+   
+})
+$(".larrow").on('click',()=>
+{    
+    if(count>1){
+        count=count-1;
+        console.log(count)
+    }
+   var cstr=count.toString()
+    for(var i=1;i<=5;i++)
+    {
+        if(i!=count)
+        {    var j=i.toString()
+            $(".course-slide-"+j).css({"visibility":"hidden"})
+        }
+    }
+    $('.course-slide-'+ cstr).css({"visibility":"visible"})
+    $('.course-slide-'+ cstr).addClass('fadein')
+    setTimeout(()=>
+    {
+      $('.course-slide-'+ cstr).removeClass('fadein')
+    },1000)
+    
+})

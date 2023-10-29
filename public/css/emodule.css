@@ -10,7 +10,7 @@ body{
     /* height: 360px; */
     position:absolute;
     right:1.8%;
-    top:72%;
+    top:75%;
     visibility: hidden;
     /* color: rgb(75, 79, 83); */
     color: black;
@@ -199,7 +199,7 @@ body{
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    margin-top:599px;
+    margin-top:500px;
 }
 
 .skillindialink-img{
@@ -365,14 +365,19 @@ body{
     margin-top: 70px;
     margin-left: 1145px;
 }
-.courses-carousel-div-eng{
+
+.courses-carousel-div-eng {
     width: 1500px;
     /* border: 1px solid black; */
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 10px;
+    /* position: absolute;+/ */
+
 }
-.slides{
+.slides {
     width: 1400px;
+    left: 12%;
+
 }
 .sub{
     width: 400px;
@@ -420,12 +425,7 @@ body{
     outline: none;
     font-weight: 700;
 }
-.larrow{
-    left: 6%;
-}
-.rarrow{
-    right: 8%;
-}
+
 .larrow, .rarrow{
     border-style: none;
     width: 50px;
@@ -435,9 +435,19 @@ body{
     cursor: pointer;
     font-size: 15px;
     background-color:rgb(238,238,238);
-    top: 1460px;
     color: black;
     font-weight: 400;
-    position: absolute;
     text-align: center;
+}
+.leftrightarrow-div {
+    display: flex;
+    margin-top: 151px;
+    justify-content: space-between;
+    width: 82%;
+    margin-left: 166px;
+    /* border: 1px solid red; */
+}
+.fadein{
+    animation-name: fadein;
+    animation-duration: 2s;
 }

@@ -492,20 +492,20 @@ background-size: cover;
   .icon-button span:hover{
     background-color: #babecc8c;
   }
-  .closesignin{
+  .closesignin {
     position: absolute;
-    left:61.5%;
-    top:30%;
+    left: 57.5%;
+    top: 25%;
     cursor: pointer;
     opacity: 0.8;
-  }
-  .closesignup{
+}
+.closesignup {
     position: absolute;
-    left:61.5%;
-    top:30%;
+    left: 57.5%;
+    top: 25%;
     cursor: pointer;
     opacity: 0.8;
-  }
+}
   .callinput{
     margin-top: 15px;
   }
@@ -549,7 +549,7 @@ background-size: cover;
     /* height: 360px; */
     position:absolute;
     right:1.8%;
-    top:70%;
+    top:75%;
     visibility: hidden;
     /* color: rgb(75, 79, 83); */
     color: black;
